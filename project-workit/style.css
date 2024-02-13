@@ -165,10 +165,14 @@ body {
     left: -220px;
   }
 
+  header .bg-pattern-2 {
+    /* overflow: hidden; */
+  }
+
   header .bg-pattern-2 img {
     border: 1px solid red;
     top: 275px;
-    left: 700px;
+    right: -70px;
     overflow: hidden;
   }
 
@@ -221,7 +225,6 @@ body {
   .image-hero {
     width: 479.15px;
     margin: 40px auto;
-
     position: absolute;
     top: 355px;
     left: 151px;
@@ -316,6 +319,366 @@ body {
   .test p {
     line-height: 1.6;
     font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .test a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #44ffa1;
+    color: #24053e;
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+  }
+
+  footer {
+    width: 116px;
+    margin: auto;
+  }
+
+  footer .social-Logo {
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  header {
+    background-color: #24053e;
+    height: 630px;
+  }
+
+  header .bg-pattern-1 img,
+  header .bg-pattern-2 img,
+  section .bg-pattern-3 img {
+    position: absolute;
+  }
+
+  header .bg-pattern-1 img {
+    top: 100px;
+    left: -120px;
+  }
+
+  header .bg-pattern-2 {
+    overflow: hidden;
+  }
+
+  header .bg-pattern-2 img {
+    border: 1px solid red;
+    top: 275px;
+    right: -70px;
+    /* overflow: hidden; */
+  }
+
+  section .bg-pattern-3 img {
+    top: 260px;
+    right: 5px;
+  }
+
+  nav {
+    padding: 40px 100px 30px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Manrope, sans-serif;
+  }
+
+  .access-Link,
+  h1 span {
+    border-bottom: 2px solid #44ffa1;
+  }
+
+  h1 {
+    margin: auto;
+    padding: 50px 220px 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .learn-More {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .learn-More a {
+    padding: 17px 30px;
+    background-color: #44ffa1;
+    text-decoration: none;
+    color: #24053e;
+    font-family: Manrope, sans-serif;
+    font-weight: 600;
+  }
+
+  .image-hero {
+    width: 415px;
+    margin: 40px auto;
+    position: absolute;
+    top: 475px;
+    left: 361px;
+  }
+
+  article {
+    display: grid;
+    margin: 190px auto;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  article div.goals {
+    text-align: center;
+  }
+
+  article div.containerNumbering {
+    display: flex;
+    align-items: center;
+  }
+
+  h3 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid black;
+    font-family: Manrope, sans-serif;
+    border-radius: 50%;
+    font-family: Fraunces, serif;
+    color: #24053e;
+  }
+
+  h2 {
+    color: #24053e;
+    font-size: 18px;
+  }
+
+  h2 + p {
+    font-family: Manrope, sans-serif;
+
+    line-height: 32px;
+  }
+
+  section.founderContainer {
+    margin: 100px auto 10px;
+  }
+
+  .founder {
+    margin-left: 8%;
+  }
+
+  .founder img {
+    width: 35%;
+  }
+
+  .test {
+    width: 43%;
+    padding: 40px 60px;
+    background-color: #24053e;
+    text-align: left;
+    font-size: 18px;
+    position: relative;
+    top: -200px;
+    right: -350px;
+    line-height: 32px;
+  }
+
+  .test h2,
+  .test p {
+    color: #ffffff;
+  }
+
+  .test p {
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .test a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #44ffa1;
+    color: #24053e;
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+  }
+
+  footer {
+    width: 116px;
+    margin: auto;
+  }
+
+  footer .social-Logo {
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  header {
+    background-color: #24053e;
+    height: 630px;
+  }
+
+  header .bg-pattern-1 img,
+  header .bg-pattern-2 img,
+  section .bg-pattern-3 img {
+    position: absolute;
+  }
+
+  header .bg-pattern-1 img {
+    top: 100px;
+    left: -120px;
+  }
+
+  header .bg-pattern-2 {
+    overflow: hidden;
+  }
+
+  header .bg-pattern-2 img {
+    border: 1px solid red;
+    top: 275px;
+    right: -70px;
+    /* overflow: hidden; */
+  }
+
+  section .bg-pattern-3 img {
+    top: 260px;
+    right: 5px;
+  }
+
+  nav {
+    padding: 40px 100px 30px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Manrope, sans-serif;
+  }
+
+  .access-Link,
+  h1 span {
+    border-bottom: 2px solid #44ffa1;
+  }
+
+  h1 {
+    margin: auto;
+    padding: 50px 220px 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .learn-More {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .learn-More a {
+    padding: 17px 30px;
+    background-color: #44ffa1;
+    text-decoration: none;
+    color: #24053e;
+    font-family: Manrope, sans-serif;
+    font-weight: 600;
+  }
+
+  .image-hero {
+    width: 415px;
+    margin: 40px auto;
+    position: absolute;
+    top: 475px;
+    left: 361px;
+  }
+
+  article {
+    display: grid;
+    margin: 190px auto;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  article div.goals {
+    text-align: center;
+  }
+
+  article div.containerNumbering {
+    display: flex;
+    align-items: center;
+  }
+
+  h3 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid black;
+    font-family: Manrope, sans-serif;
+    border-radius: 50%;
+    font-family: Fraunces, serif;
+    color: #24053e;
+  }
+
+  h2 {
+    color: #24053e;
+    font-size: 18px;
+  }
+
+  h2 + p {
+    font-family: Manrope, sans-serif;
+
+    line-height: 32px;
+  }
+
+  section.founderContainer {
+    margin: 100px auto 10px;
+  }
+
+  .founder {
+    margin-left: 8%;
+  }
+
+  .founder img {
+    width: 35%;
+  }
+
+  .test {
+    width: 43%;
+    padding: 40px 60px;
+    background-color: #24053e;
+    text-align: left;
+    font-size: 18px;
+    position: relative;
+    top: -200px;
+    right: -350px;
+    line-height: 32px;
+  }
+
+  .test h2,
+  .test p {
+    color: #ffffff;
+  }
+
+  .test p {
+    line-height: 1.6;
+    font-size: 18px;
     margin-bottom: 40px;
   }
 
