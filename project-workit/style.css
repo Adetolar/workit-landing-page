@@ -525,10 +525,10 @@ body {
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px) {
   header {
     background-color: #24053e;
-    height: 630px;
+    height: 761px;
   }
 
   header .bg-pattern-1 img,
@@ -578,7 +578,8 @@ body {
 
   h1 {
     margin: auto;
-    padding: 50px 220px 30px;
+    /* padding: 50px 500px 30px; */
+    width: 35%;
     color: #ffffff;
     text-align: center;
     font-size: 60px;
@@ -599,21 +600,22 @@ body {
   }
 
   .image-hero {
-    width: 415px;
+    width: 715px;
     margin: 40px auto;
     position: absolute;
-    top: 475px;
+    top: 495px;
     left: 361px;
   }
 
   article {
     display: grid;
     margin: 190px auto;
-    width: 80%;
+    width: 70%;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   article div.goals {
+    padding: 15px;
     text-align: center;
   }
 
@@ -652,22 +654,22 @@ body {
   }
 
   .founder {
-    margin-left: 8%;
+    margin-left: 15%;
   }
 
   .founder img {
-    width: 35%;
+    width: 30%;
   }
 
   .test {
-    width: 43%;
-    padding: 40px 60px;
+    width: 590px;
+    padding: 50px;
     background-color: #24053e;
     text-align: left;
     font-size: 18px;
-    position: relative;
-    top: -200px;
-    right: -350px;
+    position: absolute;
+    top: 1600px;
+    left: 510px;
     line-height: 32px;
   }
 
@@ -677,7 +679,7 @@ body {
   }
 
   .test p {
-    line-height: 1.6;
+    line-height: 32px;
     font-size: 18px;
     margin-bottom: 40px;
   }
@@ -693,7 +695,7 @@ body {
 
   footer {
     width: 116px;
-    margin: auto;
+    margin: 250px auto;
   }
 
   footer .social-Logo {
