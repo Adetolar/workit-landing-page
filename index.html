@@ -23,41 +23,35 @@
     <title>Frontend Mentor | Workit landing page</title>
   </head>
   <body>
+    <header>
+      <div class="logo">
+        <img src="/assets/images/logo-light.svg" alt="Workit Logo" />
+      </div>
+      <div class="access-Link"><a href="http://">Apply for access</a></div>
+    </header>
     <main>
-      <header>
-        <nav>
-          <div class="logo">
-            <img
-              src="./assets/images/logo-light.svg"
-              alt="Workit official Logo"
-            />
-          </div>
-          <div class="access-Link"><a href="http://">Apply for access</a></div>
-        </nav>
+      <div class="container-head">
         <h1>Data <span>tailored</span> to your needs.</h1>
-        <div class="bg-pattern-1">
+        <div class="bg-pattern-1 pattern">
           <img src="assets/images/bg-pattern-1.svg" alt="" />
         </div>
-        <div class="bg-pattern-2">
+        <div class="bg-pattern-2 pattern">
           <img src="assets/images/bg-pattern-2.svg" alt="" />
         </div>
         <div class="learn-More"><a href="http://#"> Learn more</a></div>
-      </header>
-
-      <section class="image-hero">
         <img
-          src="assets/images/image-hero.webp"
+          src="/assets/images/image-hero.webp"
           alt="Phone picture illustration"
           width="100%"
         />
-      </section>
+      </div>
 
       <article>
-        <div class="goals">
-          <div class="containerNumbering"><h3>1</h3></div>
-
+        <div class="goals first">
+          <!-- <div class="containerNumbering"><p>1</p></div> -->
+          <p>1</p>
           <div class="containerGoal">
-            <h2>Actionable insights</h2>
+            <h3>Actionable insights</h3>
 
             <p>
               Optimize your products, improve customer satisfaction and stay
@@ -66,10 +60,9 @@
           </div>
         </div>
         <div class="goals">
-          <div class="containerNumbering"><h3>2</h3></div>
-
+          <p>2</p>
           <div class="containerGoal">
-            <h2>Data-driven decisions</h2>
+            <h3>Data-driven decisions</h3>
 
             <p>
               Make data-driven decisions with our product data analytics. Our
@@ -79,10 +72,10 @@
           </div>
         </div>
         <div class="goals">
-          <div class="containerNumbering"><h3>3</h3></div>
-
+          pattern
+          <p>3</p>
           <div class="containerGoal">
-            <h2>Always affordable</h2>
+            <h3>Always affordable</h3>
 
             <p>
               Always affordable pricing that scales with your business. Get
@@ -93,48 +86,45 @@
         </div>
       </article>
 
-      <section class="founderContainer">
-        <div class="founder">
-          <img src="assets/images/image-founder.webp" alt="image of founder" />
+      <div class="founder-image">
+        <img src="/assets/images/image-founder.webp" alt="image of founder" />
+      </div>
+      <div class="founder-note">
+        <h2>Be the first to test</h2>
+
+        <p>
+          Hi, I'm Louis Graham, the founder of the company. Book a demo call
+          with me to become a beta tester for our app and kickstart your
+          company. Apply for access below and I’ll be in touch to schedule a
+          call.
+        </p>
+
+        <div class="bg-pattern-3 pattern">
+          <img src="assets/images/bg-pattern-3.svg" alt="" />
         </div>
-        <div class="test">
-          <h2>Be the first to test</h2>
 
-          <p>
-            Hi, I'm Louis Graham, the founder of the company. Book a demo call
-            with me to become a beta tester for our app and kickstart your
-            company. Apply for access below and I’ll be in touch to schedule a
-            call.
-          </p>
+        <a href="#">Apply for access</a>
+      </div>
 
-          <div class="bg-pattern-3">
-            <img src="assets/images/bg-pattern-3.svg" alt="" />
-          </div>
-
-          <a href="#">Apply for access</a>
-        </div>
-      </section>
       <footer>
         <div class="logo-dark">
-          <img
-            src="assets/images/logo-dark.svg"
-            alt="Workit official Logo in dark color"
-          />
+          <img src="/assets/images/logo-dark.svg" alt="Workit Logo" />
         </div>
 
         <div class="social-Logo">
-          <img
-            src="assets/images/icon-facebook.svg"
-            alt="Link to the offically facebook page"
-          />
-          <img
-            src="assets/images/icon-twitter.svg"
-            alt="Link to the offically twitter page"
-          />
-          <img
-            src="assets/images/icon-instagram.svg"
-            alt="Link to the offically instagram page"
-          />
+          <a href="https://web.facebook.com/Icetslim" target="_blank"
+            ><img src="/assets/images/icon-facebook.svg" alt="facebook page"
+          /></a>
+
+          <a href="https://twitter.com/rockfrompebbles" target="_blank"
+            ><img src="/assets/images/icon-twitter.svg" alt=" twitter page"
+          /></a>
+
+          <a href="https://www.instagram.com/3rdiraven/" target="_blank"
+            ><img
+              src="/assets/images/icon-instagram.svg"
+              alt="Link to the offically instagram page"
+          /></a>
         </div>
       </footer>
     </main>
