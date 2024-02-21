@@ -18,6 +18,17 @@ header a {
   font-family: Manrope, sans-serif;
 }
 
+header a:hover {
+  color: #44ffa1;
+}
+
+.learn-More a:hover,
+.founder-note a:hover {
+  background-color: #24053e;
+  color: #44ffa1;
+  border: 1px solid #44ffa1;
+}
+
 .pattern {
   display: none;
 }
@@ -27,8 +38,8 @@ main .container-head {
 }
 
 .access-Link,
-h1 span {
-  border-bottom: 2px solid #44ffa1;
+u {
+  text-decoration-color: #44ffa1;
 }
 
 h1 {
@@ -36,7 +47,7 @@ h1 {
   color: #ffffff;
   text-align: center;
   font-size: 3.125rem;
-  font-weight: 400;
+  font-weight: s;
   line-height: 40px;
   padding: 60px 0px 20px;
   font-family: Fraunces, serif;
@@ -86,14 +97,14 @@ article .first {
   margin: auto;
   border-radius: 50%;
   font-family: Fraunces, serif;
+  border: 1px solid #24053e;
+}
+
+h2 {
   color: #24053e;
 }
 
-h3 {
-  color: #24053e;
-}
-
-h3 + p {
+h2 + p {
   font-family: Manrope, sans-serif;
 }
 
@@ -147,7 +158,86 @@ footer {
 footer .social-Logo {
   margin-top: 60px;
   margin-bottom: 30px;
-
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 26.625rem) {
+  body {
+    line-height: 30px;
+  }
+
+  h1 {
+    margin: 0px 170px;
+    line-height: 56px;
+  }
+
+  .pattern {
+    display: block;
+    position: absolute;
+  }
+
+  .bg-pattern-1 {
+    top: 50px;
+    left: -230px;
+  }
+
+  .bg-pattern-2 {
+    width: 70px;
+    top: 250px;
+    right: 0px;
+    overflow: hidden;
+  }
+
+  .bg-pattern-3 {
+    top: 300px;
+    left: 260px;
+  }
+
+  .goals {
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    font-size: medium;
+    padding: 15px 105px;
+  }
+
+  .goals > p {
+    width: 80px;
+    height: 40px;
+  }
+
+  .containerGoal {
+    margin: 5px;
+  }
+
+  .founder-image img {
+    margin-left: 40px;
+    width: 40%;
+    /* justify-self: left; */
+  }
+
+  .founder-note {
+    text-align: left;
+    position: relative;
+    top: -150px;
+    left: 90px;
+    background-color: #24053e;
+    margin: 0px 142px;
+    font-size: medium;
+    padding: 40px;
+    padding-bottom: 70px;
+  }
+
+  .founder-note h2 {
+    font-size: xx-large;
+  }
+
+  .founder-note a {
+    margin-top: 20px;
+    line-height: 92px;
+  }
+
+  footer {
+  }
 }
