@@ -10,12 +10,13 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #24053e;
+  padding-bottom: 50px;
 }
 
 header a {
   color: #ffffff;
-  text-decoration: none;
   font-family: Manrope, sans-serif;
+  margin-bottom: 20px;
 }
 
 header a:hover {
@@ -43,13 +44,12 @@ u {
 }
 
 h1 {
-  margin: 0px;
+  margin: 0px 35px;
   color: #ffffff;
   text-align: center;
-  font-size: 3.125rem;
-  font-weight: s;
+  font-size: 2rem;
+  /* font-size:xx-large; */
   line-height: 40px;
-  padding: 60px 0px 20px;
   font-family: Fraunces, serif;
 }
 
@@ -167,8 +167,14 @@ footer .social-Logo {
     line-height: 30px;
   }
 
+  header {
+    padding-bottom: 70px;
+  }
+
   h1 {
+    font-size: 3.5rem;
     margin: 0px 170px;
+
     line-height: 56px;
   }
 
@@ -207,10 +213,6 @@ footer .social-Logo {
     height: 40px;
   }
 
-  .containerGoal {
-    margin: 5px;
-  }
-
   .founder-image img {
     margin-left: 40px;
     width: 40%;
@@ -239,5 +241,92 @@ footer .social-Logo {
   }
 
   footer {
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .learn-More + img {
+    width: 60%;
+  }
+
+  .logo {
+    margin-top: 50px;
+    margin-left: 130px;
+  }
+
+  .access-Link {
+    margin-top: 50px;
+    margin-right: 130px;
+  }
+
+  h1 {
+    font-size: 5rem;
+    margin: 0px 240px;
+  }
+
+  .bg-pattern-1 {
+    top: 150px;
+    left: -140px;
+  }
+
+  .bg-pattern-2 {
+    width: 120px;
+    top: 250px;
+    right: 10px;
+    overflow: hidden;
+  }
+
+  article {
+    margin: 150px 80px;
+    display: flex;
+    border: 1px solid red;
+  }
+
+  article .first {
+    margin-top: 0px;
+  }
+
+  article .first p {
+    margin: 0px auto;
+  }
+
+  .goals > p {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+    font-family: Fraunces, serif;
+    border: 1px solid #24053e;
+    padding: 0px;
+  }
+
+  .goals {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 90rem) {
+  h1 {
+    font-size: 5rem;
+    margin: 0px 380px;
+  }
+
+  article {
+    margin: 150px 110px;
+    gap: 0px;
+    display: flex;
+    border: 1px solid red;
+  }
+
+  .founder-note {
+    top: -690px;
+    left: 190px;
+    margin: 40px;
   }
 }
