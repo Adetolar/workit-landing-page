@@ -48,7 +48,6 @@ h1 {
   color: #ffffff;
   text-align: center;
   font-size: 2rem;
-  /* font-size:xx-large; */
   line-height: 40px;
   font-family: Fraunces, serif;
 }
@@ -216,7 +215,6 @@ footer .social-Logo {
   .founder-image img {
     margin-left: 40px;
     width: 40%;
-    /* justify-self: left; */
   }
 
   .founder-note {
@@ -238,9 +236,6 @@ footer .social-Logo {
   .founder-note a {
     margin-top: 20px;
     line-height: 92px;
-  }
-
-  footer {
   }
 }
 
@@ -279,7 +274,6 @@ footer .social-Logo {
   article {
     margin: 150px 80px;
     display: flex;
-    border: 1px solid red;
   }
 
   article .first {
@@ -321,7 +315,6 @@ footer .social-Logo {
     margin: 150px 110px;
     gap: 0px;
     display: flex;
-    border: 1px solid red;
   }
 
   .founder-note {
